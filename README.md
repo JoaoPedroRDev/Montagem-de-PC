@@ -26,6 +26,16 @@ Um site interativo desenvolvido para auxiliar usuários a simular o orçamento e
 
 ---
 
+## 📌 Próximas Melhorias / Roadmap
+
+- [ ] Adicionar fonte e placa-mãe
+- [ ] Incluir compatibilidade de soquete entre Processador e Placa-Mãe
+- [ ] Incluir API para todas as peças
+- [ ] Tornar o layout 100% responsivo para celulares
+- [ ] Adicionar um LocalStorage
+
+---
+
 ## 🔧 Como Executar o Projeto
 
 1. Clone este repositório:
