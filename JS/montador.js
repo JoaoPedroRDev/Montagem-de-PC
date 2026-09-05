@@ -15,7 +15,6 @@ function CalculoTotal() {
     const seletores = document.getElementsByTagName("select")
     for (let i = 0; i < seletores.length; i++) {
         if (Number(seletores[i].value == 0)) {
-            alert("Escolha as peças!")
             seletores[i].style.border = '1px solid red'
         } else {
             seletores[i].style.border = '1px solid #f2bf07';
@@ -24,6 +23,3 @@ function CalculoTotal() {
 }
 
 BotaoQueCalcula.addEventListener("click", CalculoTotal)
-
-
-// não mexer em nada.
