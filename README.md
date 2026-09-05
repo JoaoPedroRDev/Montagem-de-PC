@@ -6,12 +6,6 @@ O **Montador de PC** é uma aplicação web simples e interativa desenvolvida pa
 
 ---
 
-## 📌 Demonstração
-
-![Demonstração do Projeto](https://raw.githubusercontent.com/JoaoPedroRDev/Montagem-de-PC/main/preview.png)
-
----
-
 ## ✨ Funcionalidades
 
 - Seleção de componentes essenciais (Processador, Placa de Vídeo, Memória RAM e Armazenamento).
