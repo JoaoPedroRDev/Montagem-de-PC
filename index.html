@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montador de PC</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- Este vai ser meu primeiro projeto de site, e vai ser um montador de PC, onde o usuário vai poder escolher as peças que ele quer e no final vai mostrar o preço total do PC. -->
+
+    <h1>Montador de PC</h1>
+    <p>Selecione aqui seus componentes:</p>
+
+    <!--Processador -->
+    <div>
+        <label for="processador">Processador:</label>
+        <select name="processador" id="processador">
+            <option value="0">Selecione um processador</option>
+            <option value="150">Xeon E3-1230v2 (R$ 150)</option>
+            <option value="2000">AMD Ryzen 7 9800X3D (R$ 2000)</option>
+        </select>
+    </div>
+
+    <!-- Placa de Vídeo -->
+    <div>
+        <label for="PlacaDeVideo">Placa de Vídeo:</label>
+        <select name="PlacaDeVideo" id="PlacaDeVideo">
+            <option value="0">Selecione uma Placa de Vídeo</option>
+            <option value="1000">RX 570 4GB (R$ 1000)</option>
+            <option value="2500">RTX 3060 (R$ 2500)</option>
+        </select>
+    </div>
+
+
+    <!-- Memoria RAM -->
+    <div>
+        <label for="MemoriaRam">Memória RAM:</label>
+        <select name="QuantidadeRAM" id="QuantidadeRAM">
+            <option value="1">1x</option>
+            <option value="2">2x</option>
+            <option value="4">4x</option>
+        </select>
+
+        <select name="MemoriaRam" id="MemoriaRam">
+            <option value="0">Selecione uma Memoria RAM</option>
+            <option value="600">Kingston 8GB 3200MHZ (R$ 600)</option>
+            <option value="700">XPG 8GB DDR4 3200MHZ (R$ 700)</option>
+        </select>
+    </div>
+
+    <!-- Armazenamento -->
+    <div>
+        <label for="Armazenamento">Armazenamento:</label>
+        <select name="Armazenamento" id="Armazenamento">
+            <option value="0">Selecione o seu Armazenamento</option>
+            <option value="400">SSD 120GB (R$ 400)</option>
+            <option value="600">SSD 500GB (R$ 600)</option>
+            <option value="1000">SSD 1TB (R$ 1000)</option>
+        </select>
+    </div>
+
+    <!-- Precisa somar os valores e dar o resultado -->
+
+    <button id="botao">Calcular Total</button>
+
+    <h2 id="resultado">O seu PC custa: R$ </h2>
+
+    <script src="JS/montador.js"></script>
+
+</body>
+
+</html>

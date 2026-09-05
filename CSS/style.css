@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    margin: 15px 10px;
+   
+}
+
+select {
+    background-color: #573a05;
+    color: #f2bf07;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: 1px solid #f2bf07;
+}
+
+#botao {
+    display: block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
