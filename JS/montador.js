@@ -23,3 +23,6 @@ function CalculoTotal() {
 }
 
 BotaoQueCalcula.addEventListener("click", CalculoTotal)
+
+
+// https://www.kaggle.com/datasets/warcoder/pc-parts/data
