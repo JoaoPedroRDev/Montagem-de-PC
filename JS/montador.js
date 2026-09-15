@@ -13,7 +13,7 @@ function CalculoTotal() {
     for (let i = 0; i < seletores.length; i++) {
         // Remove a classe temporariamente para poder reiniciar a animação se clicar de novo
         seletores[i].classList.remove("erro");
-        
+
         // Força o navegador a reiniciar a animação no elemento
         void seletores[i].offsetWidth;
 
