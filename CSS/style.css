@@ -20,7 +20,7 @@ div {
     display: flex;
     gap: 10px;
     margin: 15px 10px;
-   
+
 }
 
 select {
@@ -42,4 +42,3 @@ select {
     border-radius: 8px;
     cursor: pointer;
 }
-
